@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejemplos de cantidad y elección
+<!ELEMENT Zonaequipos (equipo) > = 1 y solo 1
+<!ELEMENT Zonaequipos (equipo?) > = Ninguna o 1
+<!ELEMENT Zonaequipos (equipo+) > = 1 o más veces
+<!ELEMENT Zonaequipos (equipo*) > = Ninguna o muchas veces
+............................................................
+<!ELEMENT Zonaequipos (equipo|grupo) >
+<!ELEMENT equipo EMPTY>
+<!ELEMENT grupo EMPTY>-->
+
+<!ELEMENT Zonaequipos (equipo+) >
+<!ATTLIST Zonaequipos xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST Zonaequipos xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+<!ELEMENT equipo (nombreequipo,trabajo,followers+,eventos_participado?,exitosyfracasos+,integrantes)>
+<!ATTLIST equipo red_social (twitter | facebook | google) #REQUIRED>
+<!ELEMENT nombreequipo (#PCDATA)>
+<!ELEMENT trabajo (#PCDATA)>
+<!ELEMENT followers (#PCDATA)>
+<!ELEMENT eventos_participado (evento+)>
+<!ELEMENT evento (#PCDATA)>
+<!ELEMENT exitosyfracasos (año+)>
+<!ELEMENT año (añoexitos?, añofracaso?)>
+<!ATTLIST año numeroaño CDATA #REQUIRED>
+<!ELEMENT añoexitos (exito*)>
+<!ELEMENT añofracaso (fracaso*)>
+<!ELEMENT exito (#PCDATA)>
+<!ELEMENT fracaso (#PCDATA)>
+<!ELEMENT integrantes (integrante+)>
+<!ELEMENT integrante (nombre, apellidos,cargo+, fechanacimiento, rutaimagen*, ultimahoraparticipar,ultimafechaempezado,estadisticas)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT cargo (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT rutaimagen (#PCDATA)>
+<!ATTLIST rutaimagen type (jpg|png|gif) #REQUIRED>
+<!ELEMENT ultimahoraparticipar (#PCDATA)>
+<!ELEMENT ultimafechaempezado (#PCDATA)>
+<!ELEMENT estadisticas (trabajoconprogramas*,reconocimientos*)>
+<!ELEMENT trabajoconprogramas (#PCDATA)>
+<!ELEMENT reconocimientos (#PCDATA)>
+
+

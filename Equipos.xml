@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Zonaequipos SYSTEM "Equiposdtd.dtd">
+<Zonaequipos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EquiposPRO.xsd">    
+<equipo red_social="twitter">
+        <nombreequipo>YeezyMafia</nombreequipo>   
+        <trabajo>Desarrollador de apps</trabajo>
+        <followers>15</followers>
+        <eventos_participado>
+            <evento>Torneo Prax</evento>
+            <evento>Torneo League</evento>
+        </eventos_participado>
+        <exitosyfracasos>
+            <año numeroaño="1997">
+                <añoexitos>
+                    <exito>Evolución autocheck</exito>
+                    <exito>Autofill implementado</exito>
+                    <exito>Deteccion de bugs</exito>
+                </añoexitos>
+                <añofracaso>
+                    <fracaso>Cambio de perfiles</fracaso>
+                    <fracaso>Solucion online</fracaso>
+                    <fracaso>Transacciones de saldo</fracaso>
+                </añofracaso>
+            </año>
+            
+            <año numeroaño="1998">
+                <añoexitos>
+                    <exito>Avance de cuentas</exito>
+                    <exito>Limpieza hackers</exito>
+                    <exito>Solucion online</exito>
+                </añoexitos>
+                <añofracaso>
+                    <fracaso>Perdida de plantilla</fracaso>
+                    <fracaso>Esacasos recursos</fracaso>
+                    <fracaso>Baja bolsa</fracaso>
+                </añofracaso>
+            </año>
+        </exitosyfracasos>
+        <integrantes>
+            <integrante>
+                <nombre>Renzo</nombre>
+                <apellidos>Gomero</apellidos>
+                <cargo>Jefe</cargo>
+                <fechanacimiento>1995-05-05</fechanacimiento>
+                <rutaimagen type="jpg" >jpg</rutaimagen>
+                <ultimahoraparticipar>05:35:00</ultimahoraparticipar>
+                <ultimafechaempezado>2017-05-05</ultimafechaempezado>
+                <estadisticas>
+                    <trabajoconprogramas>4</trabajoconprogramas>
+                    <reconocimientos>2</reconocimientos>
+                </estadisticas>
+            
+            </integrante>
+            <integrante>
+                <nombre>Integrante2</nombre>
+                <apellidos>Apellido2</apellidos>
+                <cargo>Diseñador</cargo>
+                <fechanacimiento>1995-05-05</fechanacimiento>
+                <rutaimagen type="jpg" >jpg</rutaimagen>
+                <ultimahoraparticipar>07:50:00</ultimahoraparticipar>
+                <ultimafechaempezado>2017-05-05</ultimafechaempezado>
+                <estadisticas>
+                    <trabajoconprogramas>2</trabajoconprogramas>
+                    <reconocimientos>1</reconocimientos>
+                </estadisticas>
+            
+            </integrante>
+            <integrante>
+                <nombre>Integrante3</nombre>
+                <apellidos>Apellido3</apellidos>
+                <cargo>Programador</cargo>
+                <fechanacimiento>1995-05-05</fechanacimiento>
+                <rutaimagen type="jpg" >jpg</rutaimagen>
+                <ultimahoraparticipar>07:25:00</ultimahoraparticipar>
+                <ultimafechaempezado>2017-05-05</ultimafechaempezado>
+                <estadisticas>
+                    <trabajoconprogramas>5</trabajoconprogramas>
+                    <reconocimientos>1</reconocimientos>
+                </estadisticas>
+            
+            </integrante>
+        </integrantes>
+    </equipo>
+
+    <equipo red_social="facebook">
+        <nombreequipo>DesarrolladoresAppsInc</nombreequipo>  
+        <trabajo>Marqueting de apps</trabajo>
+        <followers>15</followers>
+        <exitosyfracasos>
+            <año numeroaño="1997">
+                <añoexitos>
+                    <exito>Presentacion congreso</exito>
+                    <exito>Numero uno en ventas</exito>
+                    <exito>Reconocimientos varios</exito>
+                </añoexitos>
+                <añofracaso>
+                    <fracaso>Bajo capital</fracaso>
+                    <fracaso>Sin metodos</fracaso>
+                    <fracaso>Sanciones publicitarias</fracaso>
+                </añofracaso>
+            </año>
+            
+            <año numeroaño="1998">
+                <añoexitos>
+                    <exito>Alto rendimiento productivo</exito>
+                    <exito>Alta productividad</exito>
+                    <exito>Premios varios</exito>
+                </añoexitos>
+                <añofracaso>
+                    <fracaso>Supervisar</fracaso>
+                    <fracaso>Supervisar x2</fracaso>
+                    <fracaso>No etiquetas</fracaso>
+                </añofracaso>
+            </año>
+        </exitosyfracasos>
+        <integrantes>
+            <integrante>
+                <nombre>Paolo</nombre>
+                <apellidos>Porras</apellidos>
+                <cargo>Jefe</cargo>
+                <fechanacimiento>1995-05-05</fechanacimiento>
+                <rutaimagen type="jpg" >jpg</rutaimagen>
+                <ultimahoraparticipar>06:54:00</ultimahoraparticipar>
+                <ultimafechaempezado>2017-05-05</ultimafechaempezado>
+                <estadisticas>
+                    <trabajoconprogramas>12</trabajoconprogramas>
+                    <reconocimientos>5</reconocimientos>
+                </estadisticas>
+            
+            </integrante>
+            <integrante>
+                <nombre>Integrante2APP</nombre>
+                <apellidos>Apellido2APP</apellidos>
+                <cargo>Diseño comercial</cargo>
+                <fechanacimiento>1995-05-05</fechanacimiento>
+                <rutaimagen type="jpg" >jpg</rutaimagen>
+                <ultimahoraparticipar>06:22:00</ultimahoraparticipar>
+                <ultimafechaempezado>2017-05-05</ultimafechaempezado>
+                <estadisticas>
+                    <trabajoconprogramas>6</trabajoconprogramas>
+                    <reconocimientos>5</reconocimientos>
+                </estadisticas>
+            
+            </integrante>
+            <integrante>
+                <nombre>Integrante3APP</nombre>
+                <apellidos>Apellido3APP</apellidos>
+                <cargo>Marqueting general</cargo>
+                <fechanacimiento>1995-05-05</fechanacimiento>
+                <rutaimagen type="jpg" >jpg</rutaimagen>
+                <ultimahoraparticipar>08:01:00</ultimahoraparticipar>
+                <ultimafechaempezado>2017-05-05</ultimafechaempezado>
+                <estadisticas>
+                    <trabajoconprogramas>3</trabajoconprogramas>
+                    <reconocimientos>1</reconocimientos>
+                </estadisticas>
+            </integrante>
+        </integrantes>
+    </equipo>
+</Zonaequipos>
